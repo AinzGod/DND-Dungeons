@@ -25,7 +25,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.14.3</version> <!-- Reemplaza con una versión compatible con Java 8 -->
+            <version>7.5.0</version> <!-- Utiliza la versión más reciente de TestNG disponible -->
             <scope>test</scope>
         </dependency>
 
