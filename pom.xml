@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>DungeonGame</groupId>
     <artifactId>MazmorrasAleatoriasParaMasters</artifactId>
@@ -15,19 +15,20 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Dependencia para el driver JDBC de SQL Server -->
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>12.4.0.jre8</version>
+            <version>4.2.0.jre7</version> <!-- O utiliza la versión más reciente de la serie 4.x -->
         </dependency>
 
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.5.0</version> <!-- Utiliza la versión más reciente de TestNG disponible -->
-            <scope>test</scope>
-        </dependency>
-
+        <dependencies>
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>7.5.0</version> <!-- Utiliza la versión que necesites -->
+                <scope>test</scope>
+            </dependency>
+            <!-- Otras dependencias que necesites -->
+        </dependencies>
     </dependencies>
 </project>

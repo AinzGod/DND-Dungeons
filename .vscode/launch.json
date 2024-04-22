@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestNG",
+            "request": "launch",
+            "mainClass": "",
+            "projectName": "DND-Dungeons",
+            "args": "-testclass DBConnectorTest",
+            "vmArgs": "-ea",
+            "classPaths": [
+                "${workspaceFolder}/out/production/DND-Dungeons",
+                "${workspaceFolder}/lib/*"
+            ],
+            "modulePaths": [],
+            "env": {},
+            "sourcePaths": [
+                "${workspaceFolder}/src"
+            ],
+            "outDir": "${workspaceFolder}/out/production/DND-Dungeons",
+            "debugOptions": "-Dtestng.dtd.http=true",
+            "jvm": "${workspaceFolder}/out/production/DND-Dungeons"
+        }
+    ]
+}
